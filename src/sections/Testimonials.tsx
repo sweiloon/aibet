@@ -38,7 +38,7 @@ export const Testimonials = () => {
     <section className="py-20 md:py-24">
       <div className="container">
         <h2 className="text-center text-5xl font-medium tracking-tighter md:text-6xl">
-          Beyong Expectations
+          Beyond Expectations
         </h2>
         <p className="mx-auto mt-5 max-w-sm text-center text-lg tracking-tight text-white/70 md:text-xl">
           超出预期的回报
