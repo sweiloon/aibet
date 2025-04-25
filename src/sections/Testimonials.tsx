@@ -65,11 +65,11 @@ export const Testimonials = () => {
               >
                 <div className="text-lg tracking-tight md:text-2xl">{testimonial.text}</div>
                 <div className="mt-5 flex items-center gap-3">
-                  <div className="relative before:absolute before:inset-0 before:z-10 before:rounded-lg before:border before:border-white/30 before:content-[''] after:absolute after:inset-0 after:bg-[rgb(140,69,244)] after:mix-blend-soft-light after:content-['']">
+                  <div className="relative before:absolute before:inset-0 before:z-10 before:rounded-lg before:border before:border-white/30 before:content-[''] after:absolute after:inset-0 after:mix-blend-soft-light after:content-['']">
                     <Image
                       src={testimonial.avatarImg}
                       alt={`Avatar for ${testimonial.name}`}
-                      className="h-11 w-11 rounded-lg border border-white/30 grayscale"
+                      className="h-11 w-11 rounded-lg border border-white/30"
                     />
                   </div>
                   <div className="">

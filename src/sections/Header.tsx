@@ -104,7 +104,8 @@ export const Header = () => {
             </nav>
           </div>
           <div className="flex items-center gap-4">
-            <Button>Join Now</Button>
+            <Button>Login</Button>
+
             <div className="md:hidden">
               <button
                 onClick={toggleMobileMenu}
@@ -184,7 +185,7 @@ export const Header = () => {
                 </li>
                 <li className="pt-6">
                   <div className="w-full">
-                    <Button>Join Now</Button>
+                    <Button className="w-full">Login</Button>
                   </div>
                 </li>
               </ul>

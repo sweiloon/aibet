@@ -92,13 +92,16 @@ export const Hero = () => {
       </motion.div>
       {/*End Ring 3*/}
       <div className="container relative mt-16">
-        <h1 className="bg-white bg-[radial-gradient(100%_100%_at_top_left,white,white,rgb(74,32,138,.5))] bg-clip-text py-8 text-center text-7xl font-semibold tracking-tighter text-transparent md:text-[158px] md:leading-none">
-          AI Trader
+        <h1 className="bg-white bg-[radial-gradient(100%_100%_at_top_left,white,white,rgb(74,32,138,.5))] bg-clip-text py-8 text-center text-6xl font-semibold tracking-tighter text-transparent md:text-[118px] md:leading-none">
+          AI Baccarat
         </h1>
         <div className="mx-auto mt-5 max-w-xl text-center">
-          <h1 className="text-2xl text-white/70 md:text-2xl lg:text-3xl">全马首个AI智能操盘手</h1>
-          <h2 className="mt-2 text-xl text-white/50 md:text-xl lg:text-2xl">
-            The First AI Intelligent Trader
+          <h1 className="text-2xl text-white/70 md:text-2xl lg:text-3xl">
+            全马首个AI百家乐智能操盘手
+          </h1>
+          <h2 className="mt-2 text-base text-white/50 md:text-sm lg:text-base">
+            Step into the future of baccarat with AI precision. Let systems do the thinking while
+            you focus on the results.
           </h2>
         </div>
         <div className="mt-5 flex justify-center">

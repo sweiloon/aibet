@@ -17,7 +17,7 @@ import { useEffect, useRef } from "react";
 const tabs = [
   {
     icon: "/assets/lottie/vroom.lottie",
-    title: "User-friendly dashboard",
+    title: "Emotion-Free Strategy",
     isNew: false,
     backgroundPositionX: 0,
     backgroundPositionY: 0,
@@ -25,16 +25,16 @@ const tabs = [
   },
   {
     icon: "/assets/lottie/click.lottie",
-    title: "One-click optimization",
-    isNew: false,
+    title: "Instant Game Deployment",
+    isNew: true,
     backgroundPositionX: 98,
     backgroundPositionY: 100,
     backgroundSizeX: 135,
   },
   {
     icon: "/assets/lottie/stars.lottie",
-    title: "Smart keyword generator",
-    isNew: true,
+    title: "AI-Powered Betting Logic",
+    isNew: false,
     backgroundPositionX: 100,
     backgroundPositionY: 27,
     backgroundSizeX: 177,
@@ -103,11 +103,11 @@ export const Features = () => {
     <section className="py-20 md:py-24">
       <div className="container">
         <h2 className="text-center text-5xl font-medium tracking-tighter md:text-6xl">
-          Your First Ai Intelligent trader
+          三赢策略 Triple Win Strategy
         </h2>
         <p className="mx-auto mt-5 max-w-2xl text-center text-lg tracking-tight text-white/70 md:text-xl">
-          Your journey to financial freedom begins with Your FIRST AI Intelligent Trader -
-          harnessing tomorrow&apos;s technology for today&apos;s trading opportunities.
+          Step into the future of baccarat with AI precision. Let systems do the thinking while you
+          focus on the results.
         </p>
         <div className="mt-10 flex flex-col gap-3 lg:flex-row">
           {tabs.map((tab) => (

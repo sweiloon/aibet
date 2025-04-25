@@ -82,11 +82,12 @@ export const CallToAction = () => {
           ></motion.div>
 
           <div className="relative">
-            <h2 className="mx-auto max-w-lg text-center text-5xl font-medium tracking-tighter md:text-6xl">
-              AI-driven Solution for Trading
+            <h2 className="mx-auto max-w-lg text-center text-4xl font-medium tracking-tighter md:text-5xl">
+              AiBet is not just a platform
             </h2>
-            <p className="mx-auto mt-5 max-w-sm px-4 text-center text-lg tracking-tight text-white/70 md:text-xl">
-              Your Trading Journey Begins with First AI Intelligence
+            <p className="mx-auto mt-5 max-w-sm px-4 text-center text-base tracking-tight text-white/70 md:text-xl">
+              Step into the future of baccarat with AI precision. Let systems do the thinking while
+              you focus on the results.
             </p>
             <div className="mt-5 flex justify-center">
               <Button>Get Started</Button>
